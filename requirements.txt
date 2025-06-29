@@ -1,1 +1,3 @@
-pip freeze > requirements.txt;
+Flask==2.3.3
+gunicorn==21.2.0
+python-dotenv==1.0.1  # Optional, only if using .env files
